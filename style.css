@@ -1,0 +1,171 @@
+/* Here goes your CSS */
+body {
+  background-color: #F7FAFF;
+  color rgb(35, 35, 35);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+  color: #6290C3;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(70,70,70);
+}
+
+h3{
+  color: #3BDBA5;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+h4{ /*esta ligado aos nomes das musicas*/
+  color: (60, 60, 60);
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+p{ /*esse esta ligado a peq descricao*/
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+
+a{
+  color: #A3C3D9;
+}
+
+a:hover{
+  color: #3BDBA5;
+}
+
+.card{
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px #B5C9F2;
+}
+
+.container{
+  width: 950px;
+  margin-top: 40px;
+  margin-left: 245px;
+  margin-right: 245px;
+}
+
+/* --------------- CABECALHO --------------- */
+
+#img-profile {
+  border-radius: 200px;
+  box-shadow: 2px 2px 3px rgb(0,0,0);
+  height: 300px; /* vertical */
+  width: 300px; /* horizontal */
+  margin-left: 295px;
+  margin-right: 295px;
+}
+
+/*
+.text-cab h1{
+  color: #6290C3;
+  text-align: center;
+}
+
+.text-cab h2 {
+  text-align: center;
+  color: rgb(70,70,70);
+}*/
+
+.text-cab p{
+  color: rgb(55, 55, 55);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+}
+#text-lewagon{
+  color: #C1413B;
+  text-decoration: none;
+}
+/* --------------- Redes Sociais --------------- */
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block; /* cancela a lista e "transforma em texto" */
+ /* padding: 15px;  aumenta o espaco interno */
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.list-inline a {
+  text-decoration: none; /* retira a decoracao do link */
+  font-size: 27px;
+  margin: 0 auto;
+}
+
+/* --------------- Bandas Favoritas --------------- */
+
+.img-bands{
+  border-radius: 7px;
+  box-shadow: 2px 2px 3px rgb(60, 60, 60);
+  height: 358px;
+  width: 308px;
+  margin: 5px;
+}
+
+.img_bands h3{
+  color: #3BDBA5;
+  font-size: 45px;
+  /*text-align: center;*/
+}
+
+.cont_bands h2{
+  color: #6290C3;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cont_bands p{
+  text-align: center;
+  margin-top: 20px;
+  /*margin-bottom: 30px;*/
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/*------------ foot -----------*/
+
+.list-foot li {
+  text-align: center;
+  display: inline-block; /* cancela a lista e "transforma em texto" */
+  padding: 20px; /* aumenta o espaco interno */
+}
+
+.list-foot a {
+  text-align: center;
+  text-decoration: none; /* retira a decoracao do link */
+  font-size: 22px;
+}
+
+.list-foot a{
+  color: #A3C3D9;
+}
+
+.list-foot a:hover {
+  color: #3BDBA5;
+}
+
+
